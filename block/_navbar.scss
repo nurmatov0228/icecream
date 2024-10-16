@@ -1,0 +1,123 @@
+.navbar{
+    position: absolute;
+    width: 1125px;
+    height: 79px;
+    left: 0px;
+    top: 10px;
+
+    .img{
+        position: absolute;
+        width: 79px;
+        height: 79px;
+        left: 0px;
+        top: 10px;
+        background: url(./image/logo.png);
+    }
+
+    .Home{
+        position: absolute;
+        width: 41px;
+        height: 18px;
+        left: 350px;
+        top: 41px;
+        font-family: 'Roboto' !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        color: #D23166;
+    }
+
+    .Product{
+        position: absolute;
+        width: 49px;
+        height: 16px;
+        left: 431px;
+        top: 49px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #150101;
+        opacity: 0.6;
+    }
+
+    .Pricing{
+        position: absolute;
+        width: 44px;
+        height: 16px;
+        left: 530px;
+        top: 42px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #150101;
+        opacity: 0.6;
+    }
+
+    .Testimonials{
+        position: absolute;
+        width: 80px;
+        height: 16px;
+        left: 610px;
+        top: 42px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #150101;
+        opacity: 0.6;
+    }
+
+    .Contact{
+        position: absolute;
+        width: 69px;
+        height: 16px;
+        left: 730px;
+        top: 42px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #150101;
+        opacity: 0.6;
+    }
+
+    button{
+        position: absolute;
+        width: 165px;
+        height: 49px;
+        left: 940px;
+        top: 25px;
+        background: #D23166;
+        border: none;
+        border-radius: 5px;
+    }
+
+    button p{
+        position: absolute;
+        width: 65px;
+        height: 22px;
+        left: 50px;
+        top: 14px;
+        font-family: 'Hind Madurai';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FAFAFA;
+        z-index: 9999;
+        background: none;
+    }
+
+    button:hover{
+        cursor: pointer;
+        background-color: #ff78a5;
+        border: 1px solid #c2124d;
+    }
+}
